@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+tudo em HTML q for id, em CSS é #
+tudo em HTML q dor class, em CSS é .
+*/
+
+body{
+background-color: #dce8f2;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+color: #025373;
+}
+h1#one{
+background-color: #013f57;
+color: #ffffff;
+text-align: center;
+}
+.basico{
+color: #15ff00;
+}
+.intermediario{
+color: #eeff00;
+}
+.avancado{
+color: #ff0000;
+}
+p{
+color: #580a63;
+background-color: rgba(197, 197, 21, 0.781);
+font-weight: bolder;
+}

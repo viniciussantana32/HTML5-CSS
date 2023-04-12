@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+        background-color: lightgray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        margin: 0px;
+        }
+        header{
+        background-color: gray;
+        padding: 10px;
+        margin: 10px;
+        }
+        main{
+        background-color: gray;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 12px;
+        }
+        footer{
+        
+        background-color: black;
+        color: aquamarine;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    article > aside{
+    background-color: rgb(78, 78, 78);
+    }
+    nav{
+        background-color: rgb(85, 85, 85);
+        padding: 10px;
+        margin: 4px;
+        box-shadow: 1px 1px 1px black;
+    }
+    header > h1{
+    text-shadow: 1px 1px 1px black;
+    }
+    div#bola{
+    border: 2px black;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    }
+    div#bola:hover{
+        border: 50px;
+        border-color: black;
+    background-color: purple;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+             <section id="assuntos">
+
+             </section>
+             <section id="noticias">
+                <article>
+                    <h2>Noticias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, magni!</p>
+                    <aside>
+                        <p>Aritgo por José Camargo</p>
+                    </aside>
+                </article>
+             </section>
+    </main>
+    <footer>
+        <p>Desanvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
